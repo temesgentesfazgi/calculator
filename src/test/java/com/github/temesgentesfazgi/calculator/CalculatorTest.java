@@ -17,7 +17,7 @@ class CalculatorTest {
     @Test
     @DisplayName("Simple Addition")
     void testAdd() {
-        assertEquals(4, calculator.add(1, 2), "Adding 1 and 2");
+        assertEquals(3, calculator.add(1, 2), "Adding 1 and 2");
     }
 
     @Test
